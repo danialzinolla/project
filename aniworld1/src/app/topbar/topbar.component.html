@@ -1,0 +1,19 @@
+<a [routerLink]="['/']"></a>
+<div
+  class="d-flex topbar flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm">
+   <div class = "logo">
+   <img src="https://img.icons8.com/ios/50/000000/naruto.png"/>
+</div>
+  <h5 class="my-0 aniworld mr-md-auto font-weight-normal"><strong>AniWorld</strong></h5>
+  <app-hero-search></app-hero-search>
+
+  <nav class="my-2 my-md-0 mr-md-3 ">
+    <a class="p-2 text-dark menubtns" routerLink="/main">Home</a>
+    <a class="p-2 text-dark menubtns" routerLink="/animes">All anime</a>
+
+  </nav>
+
+  <a class = "btn btn-outline-primary" [routerLink]="['register']">Sign up</a>
+  <a class="btn btn-outline-primary" [routerLink]="['login']">Sign in</a>
+
+</div>
