@@ -1,0 +1,14 @@
+<div class="animediv">
+  <div *ngIf="hero" class="animecontainer">
+    <button (click)="goBack()">go back</button>
+    <h2>{{hero.name | uppercase}}</h2>
+    <img src = {{hero.image}} class="cardtxt">
+    <div class="cardtxt"><span>rating:</span>{{hero.rating}}</div>
+    <div class="cardtxt"><span>About Anime:</span>{{hero.description}}</div>
+
+    <div class="cardtxt"><span>Best site to watch this anime:</span>
+      <div class="cardtxt"><a href = {{hero.url}}>YummyAnime</a></div>
+    </div>
+  </div>
+
+</div>
