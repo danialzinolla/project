@@ -1,0 +1,36 @@
+.topbar{
+    background-color:#292c2f;
+
+}
+.btn{
+    margin-right: 10px;
+}
+
+.aniworld{
+  color: #5383d3;
+}
+
+.logo{
+  filter: invert(1);
+  margin-right: 15px;
+}
+
+.menubtns{
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.menubtns:hover{
+    background-color: #007bff ;
+}
+
+.logolink:hover{
+    filter: invert(0.5);
+}
+
+.namelink{
+    text-decoration: none;
+}
+
+.namelink:hover{
+    color: cornflowerblue;
+}

@@ -1,0 +1,92 @@
+/* AppComponent's private CSS styles */
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #334953;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+.mainpagebc{
+  margin: 0;
+  background-image: url("https://images6.alphacoders.com/704/thumb-1920-704256.png");
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.vhod{
+  width: 400px;
+  height: 350px;
+  margin-left: 440px;
+  border-radius: 5px;
+  border: 1px solid rgb(153, 153, 240);
+  margin-top: 150px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputs{
+  width: 300px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(153, 153, 240);
+  margin-left: 50px;
+}
+.inputs :hover{
+  color: rgb(78, 80, 228);
+}
+p{
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+button{
+  width: 250px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid rgb(79, 79, 241);
+  background-color: rgb(79, 79, 241);
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.new{
+  margin-top: 20px;
+  margin-left: 440px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid rgb(153, 153, 240);
+  border-radius: 5px;
+}
+#new{
+  margin-top: 17px;
+  margin-left: 85px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+

@@ -1,0 +1,32 @@
+<div class="animediv">
+  <div *ngIf="hero" class="animecontainer">
+    <button (click)="goBack()">go back</button>
+    <h2>{{hero.name | uppercase}}</h2>
+    <img src = {{hero.image}} class="cardtxt imagebox">
+    <div class="cardtxt"><span>rating:</span>{{hero.rating}}</div>
+    <div class="cardtxt"><span>Short Synopsis:<br></span>{{hero.description}}</div>
+    <div>
+      <h4>Coments:</h4>
+    <ul *ngFor="let koment of koments">
+      <li><h5>{{koment.name}}</h5></li>
+      <p>{{koment.message}}</p>
+    </ul>
+    </div>
+
+    <div>
+      <h4>Similar Animes:</h4>
+      <ul *ngFor="let similar of similars">
+        <li>{{similar.name}}</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Watch Here:</h4>
+      <ul *ngFor="let web of webs">
+        <li><a href="{{web.ani_url}}" target="_blank">{{web.name}}</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>

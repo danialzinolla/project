@@ -1,0 +1,34 @@
+<div class="mainpagebc">
+
+  <div *ngIf="!logged" class="center">
+
+    <div class="vhod">
+      <p>Username</p>
+      <input type="text" class="inputs" [(ngModel)]="username"> <br>
+      <p>Password</p>
+      <input type="password"  class="inputs" [(ngModel)]="password">
+      <button (click)="login()">Sign In</button>
+    </div>
+
+  </div>
+
+
+   <div *ngIf="logged" >
+
+    <app-topbar></app-topbar>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+     <div class="exitbtn">  <button class="exitbtn" (click)="logout()">Log Out</button>
+     </div>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+
+
+   </div>
+
+</div>
